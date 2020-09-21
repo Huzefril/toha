@@ -139,6 +139,24 @@ img.right {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+/* tambahan*/
+.card-head .imageTitle {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 15px;
+  background-color: #226fbd;
+  border: none;
+  text-align: center;
+  font-size: 15px;
 }
 
 .card-img-top {
